@@ -10,7 +10,7 @@
 <body>
     @include('components.navigation')
 
-    <div class="container mt-5">
+    <div class="container mt-3">
         @yield('container')
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>

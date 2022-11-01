@@ -11,6 +11,7 @@ class WController extends Controller
         return view('home', [
             "pagetitle" => "Home",
             "maintitle" => "Wardrobe Chances",
+            "clothes" => Clothes::allData()
         ]);
     }
 
