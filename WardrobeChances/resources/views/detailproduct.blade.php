@@ -2,9 +2,9 @@
 
 @section('container')
 
-    <h1 class="px-5 mx-2">{{ $maintitle }}</h1>
+    <h3 class="px-5 mx-2 mt-">{{ $maintitle }}</h3>
     <div class="d-flex">
-        <div class="card mb-3 mx-auto d-none d-md-block" style="width: 1000px;">
+        <div class="card mb-3 mt-3 mx-auto d-none d-md-block" style="width: 1000px;">
             <div class="row g-0">
                 <div class="col-md-4">
                     <img src={{ asset("pictures/{$clothes['photo']}") }} style="width: 300px; height: 300px" alt="Product Picture">
@@ -19,8 +19,8 @@
                             <p class="card-text pt-3">Bust : {{ $clothes['bust'] }}</p>
                         @endif
                         <p class="card-text">Length : {{ $clothes['length'] }}</p><br>
-                        <a href="/product"
-                            class="btn btn-primary align-items-center justify-content-center mx-auto">Back</a>
+                        <a href="https://wa.me/6285173380018"
+                            class="btn btn-primary align-items-center justify-content-center mx-auto">Buy</a>
                     </div>
                 </div>
             </div>
@@ -38,7 +38,7 @@
                     <p class="card-text pt-3">Bust : {{ $clothes['bust'] }}</p>
                 @endif
                 <p class="card-text">Length : {{ $clothes['length'] }}</p><br>
-                <a href="/product" class="btn btn-primary align-items-center justify-content-center mx-auto">Back</a>
+                <a href="https://wa.me/6285173380018" class="btn btn-primary align-items-center justify-content-center mx-auto">Buy</a>
             </div>
         </div>
         {{-- <div class="mt-4 mb-4 mx-auto p-3 text-white rounded justify-content-center align-items-center text-center" style="width: 1000px; height: 700px; background-color: rgb(196, 212, 241)">
