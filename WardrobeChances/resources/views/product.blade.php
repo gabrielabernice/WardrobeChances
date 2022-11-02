@@ -1,9 +1,12 @@
 @extends('layouts.app')
 
 @section('container')
-    <h1 class="text-center ">{{ $maintitle }}</h1>
+<div class="d-flex mx-auto">
+    <h1 class="text-center pt-2">{{ $maintitle }}</h1>
+
+</div>
     <div class="container text-center ">
-        <div class="row ">
+        <div class="row mb-5">
             @foreach ($clothes as $clothe)
                 <div class="col-auto col-md-4 mx-auto ">
                     <div class="card my-4 mx-auto" style="width: 15rem; background-color:#dce6ff">
