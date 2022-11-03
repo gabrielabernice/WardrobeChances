@@ -10,7 +10,7 @@
 
 
 <div class="d-flex">
-        <div class="card mb-5 mt-3 mx-auto d-none d-md-block" style="width: 1000px;">
+        <div class="card mb-5 mt-3 mx-auto d-none d-md-block shadow-lg p-3 mb-4  rounded" style="width: 1000px;">
             <div class="row g-0">
                 <div class="col-md-4">
                     <img src={{ asset("pictures/{$clothes['photo']}") }} style="width: 300px; height: 300px" alt="Product Picture">
@@ -32,7 +32,7 @@
             </div>
         </div>
 
-        <div class="card mb-5 d-block d-md-none mx-auto ">
+        <div class="card mb-5 d-block d-md-none mx-auto shadow-lg p-3 mb-4  rounded">
             <img src={{ asset("pictures/{$clothes['photo']}") }} class="card-img-top" style="width: 300px; height: 300px"
                 alt="Product Picture">
             <div class="card-body text-center">
