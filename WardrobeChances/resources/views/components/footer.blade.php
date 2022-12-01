@@ -4,15 +4,15 @@
     <div class="container text-center " style="width: 200px">
         <div class="row">
             <div class="col">
-                <a href="https://instagram.com/wardrobechances?igshid=YmMyMTA2M2Y="><img src={{ asset('pictures/1.svg') }}
+                <a href="https://instagram.com/wardrobechances?igshid=YmMyMTA2M2Y=" target="_blank"><img src={{ asset('pictures/1.svg') }}
                         class="card-img-top" alt="..."></a>
             </div>
             <div class="col">
-                <a href="https://www.tiktok.com/@wardrobechances?_t=8WxjTjl4Aao&_r=1"><img src={{ asset('pictures/2.svg') }}
+                <a href="https://www.tiktok.com/@wardrobechances?_t=8WxjTjl4Aao&_r=1" target="_blank"><img src={{ asset('pictures/2.svg') }}
                         class="card-img-top" alt="..."></a>
             </div>
             <div class="col">
-                <a href="https://wa.me/6285173380018"> <img src={{ asset('pictures/3.svg') }} class="card-img-top"
+                <a href="https://wa.me/6285173380018" target="_blank"> <img src={{ asset('pictures/3.svg') }} class="card-img-top"
                         alt="..."></a>
             </div>
         </div>
