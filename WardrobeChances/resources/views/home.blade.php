@@ -26,7 +26,7 @@
 
 
     <div class="">
-        <h2 class="text-center mt-4 mb-4">New Arrivals</h2>
+        <h2 class="text-center mt-4 mb-4" style="font-family: 'nunito'; font-weight: bold">New Arrivals</h2>
         <div class="w-100 " style="background-color: #c5cfea">
             <div class="container text-center w-100">
                 <div class="card-group">
@@ -58,7 +58,7 @@
 
 
         <div class="my-4">
-            <h3 class="text-center">What Makes Us Different?</h3>
+            <h3 class="text-center" style="font-family: 'nunito'; font-weight: bold">What Makes Us Different?</h3>
 
         </div>
 
